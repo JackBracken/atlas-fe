@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Atlas</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Atlas - Better organisation for your Stava routes">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://unpkg.com/vue"></script>
+        <script src="assets/scripts/app.js"></script>
+        <link rel="stylesheet" href="assets/styles/bulma.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="http://bulma.io">
+                        <img src="assets/images/icon_with_name.png" alt="Atlas - Better organisation for your Strava routes" width="112" height="28">
+                    </a>
+
+                    <button class="button navbar-burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div id="header-nav" class="navbar-menu">
+                    <div class="navbar-start"></div>
+                    <div class="navbar-end"></div>
+                </div>
+            </nav>
+        </div>
+        <section class="section">
+            <div class="container">
+                <h1 class="title">Atlas</h1>
+                <p class="subtitle">Better organisation for your Strava routes</p>
+                <div id="app">{{ message }}</div>
+            </div>
+        </section>
+    </body>
+</html>
